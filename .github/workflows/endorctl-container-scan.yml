@@ -30,6 +30,7 @@ jobs:
         api_secret: ${{ secrets.ENDOR_API_CREDENTIALS_SECRET }}
         log_verbose: "true"
         log_level: "info"
+        scan_dependencies: "false"
         scan_container: "true"
         image: "mongo:jammy"
       env:
