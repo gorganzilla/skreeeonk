@@ -33,6 +33,7 @@ jobs:
         scan_container: "true"
         image: "mongo:jammy"
         # reset default parameters
+        enable_github_action_token: "false"
         scan_dependencies: "false"
         pr: "false"
         additional_args: "--bypass-host-check"
