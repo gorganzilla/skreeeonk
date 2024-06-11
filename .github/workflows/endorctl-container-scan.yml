@@ -30,8 +30,10 @@ jobs:
         api_secret: ${{ secrets.ENDOR_API_CREDENTIALS_SECRET }}
         log_verbose: "true"
         log_level: "info"
-        scan_dependencies: "false"
         scan_container: "true"
         image: "mongo:jammy"
+        # reset default parameters
+        scan_dependencies: "false"
+        pr: "false"
       env:
         GITHUB_PR: ${{ github.event.number }}
