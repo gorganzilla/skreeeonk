@@ -29,7 +29,7 @@ jobs:
         api_key: ${{ secrets.ENDOR_API_CREDENTIALS_KEY }}
         api_secret: ${{ secrets.ENDOR_API_CREDENTIALS_SECRET }}
         log_verbose: "true"
-        log_level: "info"
+        log_level: "debug"
         scan_container: "true"
         image: "mongo:jammy"
         # reset default parameters
