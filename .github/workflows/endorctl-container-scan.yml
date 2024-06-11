@@ -32,6 +32,7 @@ jobs:
         log_level: "debug"
         scan_container: "true"
         image: "mongo:jammy"
+        project_name: "mongo_container"
         # reset default parameters
         enable_github_action_token: "false"
         scan_dependencies: "false"
