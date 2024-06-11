@@ -35,5 +35,6 @@ jobs:
         # reset default parameters
         scan_dependencies: "false"
         pr: "false"
+        additional_args: "--bypass-host-check"
       env:
         GITHUB_PR: ${{ github.event.number }}
