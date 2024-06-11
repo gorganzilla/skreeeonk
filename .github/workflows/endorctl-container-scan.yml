@@ -23,7 +23,7 @@ jobs:
     - name: 'Run endorctl'
       uses: endorlabs/github-action@e43447d4a36adbd3792fc83d024735c35aa6cfae # refs/containers
       with:
-        namespace: "nathan.containers"
+        namespace: "nathan"
         api: "https://api.staging.endorlabs.com"
         # enable_github_action_token: "true"
         api_key: ${{ secrets.ENDOR_API_CREDENTIALS_KEY }}
